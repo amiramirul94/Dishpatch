@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/order"/>
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/track_order"/>
+        <item
+            android:id="@+id/nav_dispatch"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/dispatch"/>
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_billing"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/billing"/>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/settings"/>
+        </menu>
+    </item>
+
+</menu>

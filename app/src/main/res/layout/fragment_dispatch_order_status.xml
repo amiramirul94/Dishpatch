@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+                android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/restaurant"
+        android:background="@color/white"
+        android:id="@+id/profile_order"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        tools:text="Zafran"
+        android:id="@+id/customer_name"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/profile_order"
+        android:layout_toEndOf="@+id/profile_order"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/order_status"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/profile_order"
+        android:layout_toEndOf="@+id/profile_order"
+        android:layout_below="@id/customer_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/profile_order"
+        android:layout_marginTop="20dp"
+        android:text="Destination"
+        android:id="@+id/destination_title"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/destination_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/destination_title"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/destination_info"
+        android:layout_marginTop="20dp"
+        android:text="Pickup Location"
+        android:id="@+id/pickup_location_title"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/pickup_location_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/pickup_location_title"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pickup_location_info"
+        android:layout_marginTop="20dp"
+        android:text="Amount Forwarded"
+        android:id="@+id/amount_forwarded_title"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/amount_forwarded_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/amount_forwarded_title"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+      />
+
+    <TextView
+        android:id="@+id/earnings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/amount_forwarded_info"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="Your Earnings"/>
+    <TextView
+        android:id="@+id/earnings_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/earnings_title"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        />
+
+
+    <Button
+        android:id="@+id/view_map_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="View Map"/>
+
+
+
+
+</RelativeLayout>

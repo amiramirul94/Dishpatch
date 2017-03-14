@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Dishpatch</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="ok">OK</string>
+    <string name="action_settings">Settings</string>
+    <string name="company_trademark">Making Food Faster</string>
+    <string name="order">Order</string>
+    <string name="track_order">Track</string>
+    <string name="dispatch">Dispatch</string>
+    <string name="billing">Billing</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_select_food">SelectFoodActivity</string>
+    <string name="done">Done</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="subtitle_num_order_single">%1$s order</string>
+    <string name="subtitle_num_order_multiple">%1$s orders</string>
+    <string name="title_activity_order_submit_activity">order_submit_activity</string>
+    <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="title_activity_submit">SubmitActivity</string>
+    <string name="order_confirmation">Your order have been received by %1$s</string>
+    <string name="awaiting_for_accept">Now awaiting for approval by the restaurant</string>
+    <string name="track_item_one">%1$s from %2$s</string>
+    <string name="track_item_two">%1$s and 1 other from %2$s</string>
+    <string name="track_item_more">%1$s and %2$d others from %3$s</string>
+    <string name="title_activity_track_info">TrackInfoActivity</string>
+    <string name="go_online">GO ONLINE</string>
+    <string name="dispatch_needs_you">Dishpatch needs you!!!</string>
+    <string name="earn_money_as_a_dispatcher">Earn money as a dispatcher now</string>
+    <string name="title_activity_dispatch">DispatchActivity</string>
+    <string name="title_activity_dispatch_list">DispatchListActivity</string>
+    <string name="title_activity_dispatch_order_status">DispatchOrderStatusActivity</string>
+    <string name="title_activity_dispatch_map">DispatchMapActivity</string>
+    <string name="title_activity_restaurant">Dishpatch</string>
+    <string name="title_activity_restaurant_manage_order">RestaurantManageOrderActivity</string>
+    <string name="users">User</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="email">email</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="location">Set Location</string>
+    <string name="confirm_loc">Location confirmation</string>
+    <string name="make_sure">Make sure you are at your restaurant before setting the location.</string>
+    <string name="internet_not_available">No Internet Connection</string>
+    <string name="delete_food">Delete Food</string>
+    <string name="confirm_delete">Are sure you want to delete this food from menu?</string>
+    <string name="confirmation_delete_title">Confirm Delete</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+
+</resources>
